@@ -69,6 +69,7 @@ This project uses the hexagonal architecture (also known as Ports and Adapters),
 │       └── user.go
 ├── .env.sample
 ├── .gitignore
+├── README.md
 ├── Taskfile.yml
 ├── go.mod
 └── go.sum
