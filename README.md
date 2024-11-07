@@ -1,16 +1,16 @@
 # HexaShop
 
-HexaShop is a simple Golang application built to learn and implement hexashopal architecture. It includes APIs for managing users and products, demonstrating the core principles of domain-driven design and separation of concerns.
+HexaShop is a simple Golang application built to learn and implement hexagonal architecture. It includes APIs for managing users and products, demonstrating the core principles of domain-driven design and separation of concerns.
 
 ## Features
 
 - User management API (CRUD operations)
 - Product management API (CRUD operations)
-- Demonstrates hexashopal Architecture (ports & adapters pattern)
+- Demonstrates hexagonal Architecture (ports & adapters pattern)
 
 ## Architecture Overview
 
-This project uses the hexashopal architecture (also known as Ports and Adapters), which aims to create a more modular, loosely-coupled code structure. The business logic (core domain) is separated from the infrastructure (database, HTTP layer), making it easier to test and extend.
+This project uses the hexagonal architecture (also known as Ports and Adapters), which aims to create a more modular, loosely-coupled code structure. The business logic (core domain) is separated from the infrastructure (database, HTTP layer), making it easier to test and extend.
 
 ## Pre-requisites
 
@@ -69,7 +69,6 @@ This project uses the hexashopal architecture (also known as Ports and Adapters)
 │       └── user.go
 ├── .env.sample
 ├── .gitignore
-├── README.md
 ├── Taskfile.yml
 ├── go.mod
 └── go.sum
